@@ -1,1 +1,4 @@
-.github/workflows/bangkok.yml
+- name: Run scraper and filter
+  run: |
+    python3 google-hotels-scraper.py --location "Bangkok" --max_hotels 50 > output.txt
+    grep -i "furama" output.txt || echo "Hotel not found"
