@@ -1,0 +1,8 @@
+- name: Run scraper
+  run: |
+    python3 your_script.py \
+      --checkin 2026-06-12 \
+      --days 12 \
+      --adults 2 \
+      --currency THB \
+      --hotel_entity_id ChgI1Jyb9em59IB0GgwvZy8xMm05MjdyZHkQAQ
